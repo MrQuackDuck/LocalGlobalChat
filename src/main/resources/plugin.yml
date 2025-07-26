@@ -15,7 +15,7 @@ commands:
 
 permissions:
   localglobalchat.use:
-    description: Allows to use /chat enable|disable
+    description: Allows to use /chat
     default: true
   localglobalchat.admin:
     description: Allows to reload the plugin
