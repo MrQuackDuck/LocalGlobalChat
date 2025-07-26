@@ -1,0 +1,22 @@
+name: LocalGlobalChat
+version: '${project.version}'
+main: mrquackduck.localglobalchat.LocalGlobalChatPlugin
+api-version: '1.16'
+
+commands:
+  chat:
+    permission: localglobalchat.use
+    aliases:
+      - lgc
+  global:
+    permission: localglobalchat.use
+  local:
+    permission: localglobalchat.use
+
+permissions:
+  localglobalchat.use:
+    description: Allows to use /chat enable|disable
+    default: true
+  localglobalchat.admin:
+    description: Allows to reload the plugin
+    default: op

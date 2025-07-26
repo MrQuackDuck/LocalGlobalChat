@@ -1,0 +1,29 @@
+localChatRadius: 100
+format: '<chatSymbol><localChatDistance> <prefix>&#CBD5E1<name><suffix> &8» &f<message>'
+
+localChatSymbol: '&#F1DC4Fʟ'
+globalChatSymbol: '&#A4D400ɢ'
+
+localChatDistanceText: ' &#5E6268[<blocks>m away]'
+# Whether the distance should be displayed as a hover effect for local chat symbol
+localChatDistanceAsHover: false
+localChatDistanceHoverText: "&7<blocks>m away"
+
+# If a message starts with this symbol, the message will be sent to the global chat
+globalChatPrefix: '!'
+# If 'true', the global chat prefix (e.g., "!") will always be removed from the final message shown in chat,
+# even if the user set its default chat to global (e.g., "!hello" becomes "hello")
+hideGlobalPrefixInOutputAnyway: false
+
+# Whether the "Nobody heard you" label will be shown in the action bar when player's message wasn't seen by anyone
+showNobodyHeardYou: true
+
+messages:
+  "prefix": "&#C8D1DE[LocalGlobalChat]"
+  "default-chat-set-to-local": "<prefix> &#ECF4FBNow your default chat is &#F1DC4F&nlocal&#ECF4FB."
+  "default-chat-set-to-global": "<prefix> &#ECF4FBNow your default chat is &#A4D400&nglobal&#ECF4FB."
+  "only-players": "<prefix> &#CC1020Only players can use this command!"
+  "nobody-heard-you": "&#C8D1DENobody heard you."
+  "reloaded": "<prefix> &#7BB661Reloaded successfully!"
+  "error-during-reload": "<prefix> &#CC1020An error occurred during reload!"
+  "usage-guide": "<prefix> &#ECF4FBUsage: &n/chat local | global&#ECF4FB."
